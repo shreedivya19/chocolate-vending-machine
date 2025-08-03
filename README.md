@@ -1,26 +1,33 @@
 # 🍫 Chocolate Vending Machine
 
-An interactive chocolate vending machine built with HTML, CSS, and JavaScript.
+An interactive chocolate vending machine simulator built with HTML, CSS, and JavaScript. Perfect for demonstrating DOM manipulation, event handling, and CSS animations!
 
-## Features
-- 💰 Interactive coin system
-- 🍫 6 different chocolate varieties
-- ✨ Smooth animations and effects
-- 🎯 Selection highlighting
-- 🎉 Purchase animations
-- 📱 Responsive design
+![Vending Machine Preview](https://via.placeholder.com/600x400/667eea/ffffff?text=Chocolate+Vending+Machine)
 
-## How to Use
-1. Insert coins by clicking on them
-2. Select your favorite chocolate
-3. Click BUY when you have enough balance
-4. Enjoy the falling chocolate animation!
+## 🎮 Live Demo
+**[Try it here!](https://shreedivya19.github.io/chocolate-vending-machine/)**
 
-## Technologies Used
-- HTML5
-- CSS3 (Grid, Flexbox, Animations)
-- Vanilla JavaScript
-- Modern CSS features (gradients, shadows, transforms)
+## ✨ Features
+- 💰 **Interactive Coin System** - Insert ₹5, ₹10, or ₹20 coins
+- 🍫 **6 Chocolate Varieties** - Each with unique pricing
+- 🎯 **Smart Selection System** - Visual feedback for selections
+- 🎉 **Purchase Animations** - Falling chocolate effects
+- 💡 **Digital Display** - Real-time status updates
+- 🔄 **Reset Functionality** - Start fresh anytime
+- 📱 **Responsive Design** - Works on all devices
 
-## Live Demo
-[View Live Demo](https://shreedivya19.github.io/chocolate-vending-machine/)
+## 🛠️ Technologies Used
+- **HTML5** - Structure and semantics
+- **CSS3** - Styling, animations, and gradients
+- **Vanilla JavaScript** - Interactive functionality
+- **CSS Grid & Flexbox** - Layout system
+- **CSS Animations** - Visual effects
+
+## 🚀 How to Use
+1. **Insert Coins** - Click on ₹5, ₹10, or ₹20 coins to add balance
+2. **Select Chocolate** - Click on your favorite chocolate variety
+3. **Purchase** - Hit the BUY button when you have enough balance
+4. **Enjoy** - Watch the falling chocolate animation!
+5. **Reset** - Use the RESET button to start over
+
+## 📁 Project Structure
