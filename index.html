@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Vending Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="vending-machine">
+        <a href="https://github.com/YOUR_USERNAME" class="github-link">🐙 GitHub</a>
+        
+        <div class="machine-header">
+            🍫 CHOCO MACHINE 🍫
+        </div>
+
+        <div class="display-section">
+            <div class="display-text" id="display">
+                SELECT YOUR CHOCOLATE
+            </div>
+        </div>
+
+        <!-- CHOCOLATE GRID SECTION -->
+        <div class="chocolate-grid" id="chocolateGrid">
+            <div class="chocolate-slot" data-name="Dark Delight" data-price="25" data-icon="🍫">
+                <div class="chocolate-icon">🍫</div>
+                <div class="chocolate-name">Dark Delight</div>
+                <div class="chocolate-price">₹25</div>
+            </div>
+            <div class="chocolate-slot" data-name="Milk Magic" data-price="20" data-icon="🥛">
+                <div class="chocolate-icon">🥛</div>
+                <div class="chocolate-name">Milk Magic</div>
+                <div class="chocolate-price">₹20</div>
+            </div>
+            <div class="chocolate-slot" data-name="Nutty Crunch" data-price="30" data-icon="🥜">
+                <div class="chocolate-icon">🥜</div>
+                <div class="chocolate-name">Nutty Crunch</div>
+                <div class="chocolate-price">₹30</div>
+            </div>
+            <div class="chocolate-slot" data-name="Caramel Swirl" data-price="35" data-icon="🍮">
+                <div class="chocolate-icon">🍮</div>
+                <div class="chocolate-name">Caramel Swirl</div>
+                <div class="chocolate-price">₹35</div>
+            </div>
+            <div class="chocolate-slot" data-name="White Wonder" data-price="25" data-icon="🤍">
+                <div class="chocolate-icon">🤍</div>
+                <div class="chocolate-name">White Wonder</div>
+                <div class="chocolate-price">₹25</div>
+            </div>
+            <div class="chocolate-slot" data-name="Mint Fresh" data-price="28" data-icon="🌿">
+                <div class="chocolate-icon">🌿</div>
+                <div class="chocolate-name">Mint Fresh</div>
+                <div class="chocolate-price">₹28</div>
+            </div>
+        </div>
+
+        <!-- COIN SECTION - THIS IS WHERE THE BUTTONS ARE! -->
+        <div class="coin-section">
+            <div class="coin-display">
+                Balance: ₹<span id="balance">0</span>
+            </div>
+            <div class="coins">
+                <div class="coin" data-value="5">₹5</div>
+                <div class="coin" data-value="10">₹10</div>
+                <div class="coin" data-value="20">₹20</div>
+            </div>
+            <!-- THE BUTTONS ARE RIGHT HERE ⬇️ -->
+            <div class="buttons">
+                <button class="btn buy-btn" id="buyBtn" disabled>BUY</button>
+                <button class="btn reset-btn" id="resetBtn">RESET</button>
+            </div>
+        </div>
+
+        <div class="dispensed-item" id="dispensedItem">
+            🍫 Enjoy your chocolate! 🍫
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
